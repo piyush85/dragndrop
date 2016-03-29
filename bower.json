@@ -1,0 +1,25 @@
+{
+  "name": "DND",
+  "version": "1.0",
+  "authors": [
+    "PiyushGoyal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular": "~1.4.7",
+    "angular-ui-router": "~0.2.15",
+    "angular-mocks": "~1.5.0",
+    "angular-bootstrap": "^0.14.3",
+    "bootstrap-css-only": "*",
+    "angular-dragdrop": "*",
+    "angular-cookies":"*"
+  },
+  "resolutions": {
+    "angular": "~1.4.7"
+  }
+}
