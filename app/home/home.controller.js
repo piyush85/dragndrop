@@ -28,7 +28,7 @@
             UserService.GetByUsername($rootScope.globals.currentUser.username)
                 .then(function (user) {
                     vm.user = user;
-                    vm.user.data = user.userType === "admin"?(vm.user.data || adminList):(vm.user.data || userList);
+                    vm.user.data = user.userType.name === "Admin"?(vm.user.data || adminList):(vm.user.data || userList);
                     //vm.cards = cardsIntersection(vm.cards, vm.user.data);
                 });
             UserService.GetAllCards()
